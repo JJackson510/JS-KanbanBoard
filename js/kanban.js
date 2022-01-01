@@ -16,6 +16,10 @@ add_btn.addEventListener('click', () => {
 });
 
 const create_item = () => {
+  let item =document.createElement('div');
+  item.classList.add(item);
+  item.setAttribute("item-order-id");
+  item.draggable= true;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
